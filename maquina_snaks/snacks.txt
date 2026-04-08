@@ -1,0 +1,6 @@
+1,Papas,77
+2,Sabritas,60
+3,Nachos,70
+4,HotDog,50
+5,Sandwich,75
+6,Tortrix,3.5
