@@ -6,7 +6,7 @@ class ServicioSnacks:
 
     def __init__(self):
         self.snacks = []
-        #Revisar si ya existe el archivo snacks.txt, sino cargamos algunos snacks iniciales
+        # Revisar si ya existe el archivo snacks.txt, sino cargamos algunos snacks iniciales
         if os.path.isfile(self.NOMBRE_ARCHIVO):
             self.snacks = self.obtener_snacks()
         else:
@@ -20,9 +20,9 @@ class ServicioSnacks:
             Snack('HotDog', 50),
             Snack('Sandwich', 75),
         ]
+
         self.snacks.extend(snacks_iniciales)
         self.guardar_snacks_archivo(snacks_iniciales)
-
 
     def guardar_snacks_archivo(self, snacks):
 

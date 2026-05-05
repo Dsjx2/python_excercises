@@ -59,3 +59,19 @@ value = {
     }
 
 imprimir_dict(**value)
+
+
+#Funciones recursivas
+
+def funcion_recursiva(numero):
+    #Caso base
+    if numero == 1:
+        print(numero, end=' ')
+    else:
+        funcion_recursiva(numero-1)
+        print(numero,end=' ')
+
+#programa principal
+funcion_recursiva(6)
+
+

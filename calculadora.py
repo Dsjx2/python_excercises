@@ -1,17 +1,13 @@
 print('*****Calculadora*****')
 
-
 print('''
-    OPERACIONES A REALIZAR
-    
+    OPERACIONES A REALIZAR    
     1. SUMA
     2. RESTA
     3. MULTIPLICAR
     4. DIVIDIR
     5. SALIR
-    
     ''')
-
 def suma(num1,num2):
     return num1+num2
 def resta(num1,num2):

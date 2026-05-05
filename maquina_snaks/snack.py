@@ -14,7 +14,6 @@ class Snack:
     def precio(self):
         return self._precio
 
-
     def __str__(self):
         return f'Snack -> {self._id_snack} -> : Nombre-> {self.nombre} : Precio-> {self._precio}'
 
