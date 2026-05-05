@@ -39,10 +39,10 @@ class Conexion:
          conexion.close()
 
 
-# if __name__ == '__main__':
-#     pool = Conexion.obtener_pool()
-#     print(pool)
-#     conexion1 = pool.get_connection()
-#     print(conexion1)
-#     Conexion.liberar_conexion(conexion1)
-#     print(f'Se ha liberado el objeto conexion')
+if __name__ == '__main__':
+    pool = Conexion.obtener_pool()
+    print(pool)
+    conexion1 = pool.get_connection()
+    print(conexion1)
+    Conexion.liberar_conexion(conexion1)
+    print(f'Se ha liberado el objeto conexion')
